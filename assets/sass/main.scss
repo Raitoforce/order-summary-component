@@ -1,0 +1,59 @@
+:root {
+
+    /*=============================================
+    =            colors            =
+    =============================================*/
+
+
+    /* primary */
+
+    --color-primary-pale: hsl(225, 100%, 94%);
+    --color-primary-brigth: hsl(245, 75%, 52%);
+
+
+    /* neutral */
+
+    --color-neutral-pale: hsl(225, 100%, 98%);
+    --color-neutral-desaturate: hsl(224, 23%, 55%);
+    --color-neutral-dark: hsl(223, 47%, 23%);
+
+    /*=====  End of colors  ======*/
+
+
+    /*=============================================
+    =            breakpoints            =
+    =============================================*/
+
+    /* 375px */
+    --mobile: 23.4375em;
+
+    /*=====  End of breakpoints  ======*/
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background: var(--color-neutral-desaturate);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-neutral-dark);
+    font-size: 1.6rem;
+}
