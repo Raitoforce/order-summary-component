@@ -185,3 +185,17 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 23.4375em) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    .card {
+        width: 32rem;
+
+        &__picture {
+            height: 16rem;
+        }
+    }
+}

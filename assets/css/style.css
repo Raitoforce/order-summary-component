@@ -129,3 +129,11 @@ body {
       font-weight: 700; }
       .card__button--cancel:hover {
         color: var(--color-neutral-dark); }
+
+@media only screen and (max-width: 23.4375em) {
+  body {
+    font-size: 1.4rem; }
+  .card {
+    width: 32rem; }
+    .card__picture {
+      height: 16rem; } }
